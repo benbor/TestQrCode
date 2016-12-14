@@ -1,0 +1,20 @@
+{
+    "name": "ciklum/qr-generator",
+    "require": {
+        "php": "~5.5.9",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ciklum\\QrGenerator\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ciklum\\QrGenerator\\Tests\\" : "tests/"
+        }
+    }
+}
